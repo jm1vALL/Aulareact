@@ -2,6 +2,7 @@ import "./App.css";
 import Exemplo1 from "./paginas/Exemplo1";
 import Exemplo2 from "./paginas/Exemplo2";
 import Exercicio1 from "./paginas/Exercicio1";
+import Exercicio2 from "./paginas/Exercicio2";
 
 export default function App()
 {
@@ -26,6 +27,13 @@ export default function App()
     <div className="card">
       <h3>Exercicios</h3>
       <Exercicio1 fahrenheit={33} />
+    </div>
+
+    <div className="card">
+    <h3>Exercicio 2</h3>
+    <Exercicio2 peso={94} altura={1.76} />
+  
+
     </div>
 
     </div>
